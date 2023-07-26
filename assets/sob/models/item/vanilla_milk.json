@@ -1,0 +1,6 @@
+{
+    "parent": "sob:item/mug",
+    "textures": {
+      "layer0": "sob:item/vanilla_milk"
+    }
+  }
