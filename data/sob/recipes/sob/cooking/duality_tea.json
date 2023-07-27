@@ -1,0 +1,39 @@
+{
+    "type": "farmersdelight:cooking",
+    "recipe_book_tab": "drinks",
+    "ingredients": [
+      {
+        "tag": "forge:milk"
+      },
+      {
+        "item": "malum:soulwood_leaves"
+      },
+      {
+        "item": "malum:runewood_leaves"
+      },
+      {
+        "item": "malum:unholy_syrup"
+      },
+      {
+        "item": "malum:holy_syrup"
+      }
+    ],
+    "result": {
+      "item": "sob:duality_tea"
+    },
+    "experience": 1.0,
+    "cookingtime": 200,
+    "container": {
+      "item": "minecraft:glass_bottle"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "malum"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "farmersdelight"
+        }
+      ]
+  }

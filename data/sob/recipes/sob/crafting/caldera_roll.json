@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {"item": "sob:cinder_bread"},
+      {"tag": "forge:buckets/lava"}
+    ],
+    "result": {
+      "item": "sob:caldera_roll",
+      "count": 1
+    },
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "create"
+      }
+    ]
+  }

@@ -1,0 +1,32 @@
+{
+    "type": "farmersdelight:cooking",
+    "recipe_book_tab": "drinks",
+    "ingredients": [
+      {
+        "item": "minecraft:crimson_fungus"
+      },
+      {
+        "item": "minecraft:warped_fungus"
+      },
+      {
+        "item": "farmersrespite:black_tea_leaves"
+      },
+      {
+        "item": "minecraft:magma_cream"
+      }
+    ],
+    "result": {
+      "item": "sob:lava_top_cocktail"
+    },
+    "experience": 1.0,
+    "cookingtime": 200,
+    "container": {
+      "item": "minecraft:glass_bottle"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "farmersrespite"
+        }
+      ]
+  }

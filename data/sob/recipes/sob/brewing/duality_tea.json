@@ -1,0 +1,30 @@
+{
+    "type": "farmersrespite:brewing",
+    "ingredients": [
+      {
+        "item": "malum:unholy_syrup"
+      },
+      {
+        "item": "malum:holy_syrup"
+      }
+    ],
+    "result": {
+      "item": "sob:duality_tea"
+    },
+    "experience": 0.35,
+    "brewingtime": 100,
+    "needwater": true,
+    "container": {
+        "item": "minecraft:glass_bottle"
+    },
+    "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "malum"
+      },
+      {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+      }
+    ]
+  }

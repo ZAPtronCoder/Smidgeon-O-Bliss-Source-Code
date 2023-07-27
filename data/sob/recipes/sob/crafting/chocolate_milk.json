@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {"item": "neapolitan:chocolate_bar"},
+      {"item": "minecraft:sugar"},
+      {"tag": "forge:milk"},
+      {"tag": "forge:milk"},
+      {"item": "minecraft:glass_bottle"},
+      {"item": "minecraft:glass_bottle"}
+    ],
+    "result": {
+      "item": "sob:chocolate_milk",
+      "count": 2
+    },
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "neapolitan"
+      }
+    ]
+  }

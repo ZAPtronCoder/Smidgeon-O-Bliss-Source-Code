@@ -1,0 +1,9 @@
+{
+    "type": "create:mixing",
+    "ingredients": [{"item": "upgrade_aquatic:mulberry"},{"item": "minecraft:sugar"}],
+    "results": [{"fluid": "sob:mulberry_jam","amount": 250}],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "upgrade_aquatic"}
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {"item": "minecraft:glass_bottle"},
+      {"item": "minecraft:sugar"},
+      {"item": "minecraft:sugar"},
+      {"tag": "forge:slimeballs"},
+      {"tag": "forge:slimeballs"},
+      {"tag": "forge:slimeballs"},
+      {"tag": "forge:slimeballs"},
+      {"tag": "forge:ice_cubes"},
+      {"tag": "forge:ice_cubes"}
+    ],
+    "result": {
+      "item": "sob:slome_slush",
+      "count": 1
+    },
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "neapolitan"
+      }
+    ]
+  }

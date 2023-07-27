@@ -1,0 +1,12 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {"item": "sob:cinder_bread"},
+      {"fluid": "minecraft:lava","amount": 250}
+    ],
+    "results": [{"item": "sob:caldera_roll"}],
+    "conditions": [{
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }]
+  }

@@ -1,0 +1,29 @@
+{
+    "type": "farmersdelight:cooking",
+    "recipe_book_tab": "drinks",
+    "ingredients": [
+      {
+        "tag": "forge:milk"
+      },
+      {
+        "tag": "sob:boba_pearls"
+      },
+      {
+        "tag": "sob:boba_pearls"
+      }
+    ],
+    "result": {
+      "item": "sob:boba_tea"
+    },
+    "experience": 1.0,
+    "cookingtime": 200,
+    "container": {
+      "item": "minecraft:glass_bottle"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "farmersdelight"
+        }
+      ]
+  }

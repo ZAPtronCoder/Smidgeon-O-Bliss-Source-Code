@@ -1,0 +1,19 @@
+{
+    "type": "create:emptying",
+    "ingredients": [{"item": "sob:mulberry_jam_bucket"}],
+    "results": [
+        {"item": "minecraft:bucket"},
+        {"fluid": "sob:mulberry_jam","amount": 1000}
+    ],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "upgrade_aquatic"},
+        {
+            "type": "forge:not",
+            "value": {
+              "type": "forge:mod_loaded",
+              "modid": "create_central_kitchen"
+            }
+          }
+    ]
+  }
