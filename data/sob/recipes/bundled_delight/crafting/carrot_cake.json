@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IMI",
+    "SES",
+    " P "
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:eggs"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "P": {
+      "tag": "forge:dough/wheat"
+    },
+    "M": {
+      "tag": "forge:milk"
+    },
+    "I": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "bundleddelight:carrot_cake"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bundleddelight"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dough/wheat"
+      }
+    }
+  ]
+}

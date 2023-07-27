@@ -1,0 +1,23 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {"item": "minecraft:bread"},
+      {"fluidTag": "forge:honey","amount": 250}
+    ],
+    "results": [{"item": "buzzier_bees:honey_bread"}],
+    "conditions": [{
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "buzzier_bees"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "create_central_kitchen"
+      }
+    }]
+  }

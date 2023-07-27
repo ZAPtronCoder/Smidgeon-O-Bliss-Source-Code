@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "upgrade_aquatic:mulberry"
+      },
+      {
+        "tag": "forge:dough/wheat"
+      }
+    ],
+    "result": {
+      "item": "abnormals_delight:mulberry_cookie",
+      "count": 8
+    },
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "abnormals_delight"
+      },
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:dough/wheat"
+        }
+      }
+    ]
+  }

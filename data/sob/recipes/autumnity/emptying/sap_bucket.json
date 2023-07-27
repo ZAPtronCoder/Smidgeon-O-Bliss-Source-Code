@@ -1,0 +1,19 @@
+{
+    "type": "create:emptying",
+    "ingredients": [{"item": "sob:sap_bucket"}],
+    "results": [
+        {"item": "minecraft:bucket"},
+        {"fluid": "sob:sap","amount": 1000}
+    ],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "autumnity"},
+        {
+            "type": "forge:not",
+            "value": {
+              "type": "forge:mod_loaded",
+              "modid": "create_central_kitchen"
+            }
+          }
+    ]
+  }

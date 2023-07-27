@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IMI",
+    "SES",
+    " P "
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:eggs"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "P": {
+      "tag": "forge:dough/wheat"
+    },
+    "M": {
+      "tag": "forge:milk"
+    },
+    "I": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "item": "seasonals:sweet_berry_cake"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "seasonals"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dough/wheat"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "create_central_kitchen"
+      }
+    }
+  ]
+}

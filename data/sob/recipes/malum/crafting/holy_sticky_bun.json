@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:bread"
+      },
+      {
+        "item": "malum:holy_syrup"
+      }
+    ],
+    "result": {
+      "item": "sob:holy_sticky_bun"
+    },
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "malum"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "create"
+      }
+    ]
+  }

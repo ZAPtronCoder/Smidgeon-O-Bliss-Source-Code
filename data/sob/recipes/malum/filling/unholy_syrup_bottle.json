@@ -1,0 +1,12 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {"item": "minecraft:glass_bottle"},
+      {"fluid": "sob:unholy_syrup","amount": 250}
+    ],
+    "results": [{"item": "malum:unholy_syrup"}],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "malum"}
+    ]
+  }

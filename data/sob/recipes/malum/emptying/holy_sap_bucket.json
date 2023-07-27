@@ -1,0 +1,12 @@
+{
+    "type": "create:emptying",
+    "ingredients": [{"item": "sob:holy_sap_bucket"}],
+    "results": [
+        {"item": "minecraft:bucket"},
+        {"fluid": "sob:holy_sap","amount": 1000}
+    ],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "malum"}
+    ]
+  }

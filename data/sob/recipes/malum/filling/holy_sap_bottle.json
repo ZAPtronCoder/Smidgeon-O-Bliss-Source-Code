@@ -1,0 +1,12 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {"item": "minecraft:glass_bottle"},
+      {"fluid": "sob:holy_sap","amount": 250}
+    ],
+    "results": [{"item": "malum:holy_sap"}],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "malum"}
+    ]
+  }

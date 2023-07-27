@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IMI",
+    "SES",
+    " P "
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:eggs"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "P": {
+      "tag": "forge:dough/wheat"
+    },
+    "M": {
+      "tag": "forge:milk"
+    },
+    "I": {
+      "item": "farmersrespite:coffee_beans"
+    }
+  },
+  "result": {
+    "item": "farmersrespite:coffee_cake"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersrespite"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dough/wheat"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "create_central_kitchen"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "create_central_kitchen"
+      }
+    }
+  ]
+}

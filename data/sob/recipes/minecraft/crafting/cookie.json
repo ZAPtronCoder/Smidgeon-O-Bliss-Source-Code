@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:cocoa_beans"
+      },
+      {
+        "tag": "forge:dough"
+      }
+    ],
+    "result": {
+      "item": "minecraft:cookie",
+      "count": 8
+    },
+    "conditions": [
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:dough/wheat"
+        }
+      }
+    ]
+  }

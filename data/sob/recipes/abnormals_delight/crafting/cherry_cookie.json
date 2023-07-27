@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "environmental:cherries"
+      },
+      {
+        "tag": "forge:dough/wheat"
+      }
+    ],
+    "result": {
+      "item": "abnormals_delight:cherry_cookie",
+      "count": 8
+    },
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "abnormals_delight"
+      },
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:dough/wheat"
+        }
+      }
+    ]
+  }

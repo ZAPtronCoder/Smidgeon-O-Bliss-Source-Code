@@ -1,0 +1,13 @@
+{
+    "type": "create:emptying",
+    "ingredients": [{"item": "autumnity:sappy_maple_log"}],
+    "results": [
+        {"item": "autumnity:stripped_maple_log"},
+        {"fluid": "create_central_kitchen:sap","amount": 250}
+    ],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "autumnity"},
+        {"type": "forge:mod_loaded","modid": "create_central_kitchen"}
+    ]
+  }

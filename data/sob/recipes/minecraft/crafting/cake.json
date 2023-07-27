@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " M ",
+      "SES",
+      " P "
+    ],
+    "key": {
+      "E": {
+        "tag": "forge:eggs"
+      },
+      "S": {
+        "item": "minecraft:sugar"
+      },
+      "P": {
+        "tag": "forge:dough/wheat"
+      },
+      "M": {
+        "tag": "forge:milk"
+      }
+    },
+    "result": {
+      "item": "minecraft:cake"
+    },
+    "conditions": [
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:dough/wheat"
+        }
+      }
+    ]
+  }

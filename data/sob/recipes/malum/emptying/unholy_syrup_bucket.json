@@ -1,0 +1,12 @@
+{
+    "type": "create:emptying",
+    "ingredients": [{"item": "sob:unholy_syrup_bucket"}],
+    "results": [
+        {"item": "minecraft:bucket"},
+        {"fluid": "sob:unholy_syrup","amount": 1000}
+    ],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "malum"}
+    ]
+  }

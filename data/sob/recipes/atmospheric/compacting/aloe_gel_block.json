@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [{"fluid": "sob:aloe_gel","amount": 1000}],
+  "results": [{"item": "atmospheric:aloe_gel_block"}],
+  "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "atmospheric"},
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "create_central_kitchen"
+          }
+        }
+    ]
+}

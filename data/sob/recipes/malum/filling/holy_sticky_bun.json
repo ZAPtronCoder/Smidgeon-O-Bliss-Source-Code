@@ -1,0 +1,12 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {"item": "minecraft:bread"},
+      {"fluid": "sob:holy_syrup","amount": 250}
+    ],
+    "results": [{"item": "sob:holy_sticky_bun"}],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "malum"}
+    ]
+  }

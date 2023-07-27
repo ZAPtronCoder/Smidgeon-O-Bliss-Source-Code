@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:honey_bottle"
+      },
+      {
+        "tag": "forge:dough/wheat"
+      }
+    ],
+    "result": {
+      "item": "farmersdelight:honey_cookie",
+      "count": 8
+    },
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "farmersdelight"
+      },
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:dough/wheat"
+        }
+      }
+    ]
+  }

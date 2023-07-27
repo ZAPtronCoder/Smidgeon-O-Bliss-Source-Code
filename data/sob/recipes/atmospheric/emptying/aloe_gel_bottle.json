@@ -1,0 +1,19 @@
+{
+    "type": "create:emptying",
+    "ingredients": [{"item": "atmospheric:aloe_gel_bottle"}],
+    "results": [
+        {"item": "minecraft:glass_bottle"},
+        {"fluid": "sob:aloe_gel","amount": 250}
+    ],
+    "conditions": [
+        {"type": "forge:mod_loaded","modid": "create"},
+        {"type": "forge:mod_loaded","modid": "atmospheric"},
+        {
+            "type": "forge:not",
+            "value": {
+              "type": "forge:mod_loaded",
+              "modid": "create_central_kitchen"
+            }
+          }
+    ]
+  }
