@@ -1,0 +1,18 @@
+{
+    "type": "drinkable_bottle",
+    "max_stack_size": 16,
+    "food": "sob:glow_berry_smoothie",
+    "group": "sob:sob",
+    "conditions": [
+      { "type":"mod_loaded", "modid": "neapolitan" }
+    ],
+    "delayed_use": {
+      "duration": 20,
+      "animation": "drink",
+      "on_complete": "use_item"
+    },
+    "lore": [
+      {"text": "Glowing (0:20)", "color": "blue" },
+      {"text": "Night Vision (0:20)", "color": "blue" }
+    ]
+  }

@@ -1,0 +1,40 @@
+{
+    "nutrition": 6,
+    "saturation": 0.6,
+    "effects": [
+        {
+          "effect": "minecraft:nausea",
+          "duration": 200,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true
+        },
+        {
+          "effect": "minecraft:fire_resistance",
+          "duration": 2400,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true
+        },
+        {
+          "effect": "respiteful:maturity",
+          "duration": 2400,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true,
+          "conditions":[{ "type":"mod_loaded", "modid": "respiteful" }]
+        },
+        {
+          "effect": "farmersrespite:caffeinated",
+          "duration": 2400,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true,
+          "conditions":[{ "type":"not", "condition":{ "type":"mod_loaded", "modid": "respiteful" }}]
+        }
+      ]
+}

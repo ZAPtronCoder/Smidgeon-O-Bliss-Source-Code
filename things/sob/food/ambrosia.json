@@ -1,0 +1,46 @@
+{
+    "nutrition": 6,
+    "saturation": 2.50,
+    "effects": [
+        {
+          "effect": "minecraft:glowing",
+          "duration": 6000,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true
+        },
+        {
+          "effect": "minecraft:resistance",
+          "duration": 200,
+          "amplifier": 9,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true
+        },
+        {
+          "effect": "minecraft:regeneration",
+          "duration": 200,
+          "amplifier": 4,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true
+        },
+        {
+          "effect": "minecraft:absorption",
+          "duration": 6000,
+          "amplifier": 4,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true
+        },
+        {
+          "effect": "minecraft:fire_resistance",
+          "duration": 12000,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true
+        }
+      ]
+}

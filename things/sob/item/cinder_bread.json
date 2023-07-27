@@ -1,0 +1,12 @@
+{
+    "type": "plain",
+    "max_stack_size": 64,
+    "food": "sob:cinder_bread",
+    "group": "sob:sob",
+    "conditions": [
+      { "type":"mod_loaded", "modid": "create" }
+    ],
+    "lore": [
+      {"text": "Hunger II (0:15)", "color": "red" }
+    ]
+  }

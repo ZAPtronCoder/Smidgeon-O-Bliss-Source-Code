@@ -1,0 +1,14 @@
+{
+    "nutrition": 6,
+    "saturation": 0.1,
+    "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "duration": 1200,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true
+        }
+      ]
+}

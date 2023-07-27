@@ -1,0 +1,10 @@
+{
+  "type": "plain",
+  "max_stack_size": 64,
+  "food": "sob:unholy_sticky_bun",
+  "group": "sob:sob",
+  "conditions": [
+    { "type":"mod_loaded", "modid": "create" },
+    { "type":"mod_loaded", "modid": "malum" }
+  ]
+}

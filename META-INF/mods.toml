@@ -1,0 +1,16 @@
+modLoader="lowcodefml"
+loaderVersion="43"
+license="ARR"
+[[mods]]
+modId="sob"
+version="1.2.4"
+displayName="Smidgeon O' Bliss"
+description='''
+Food compat. As simple as that. Been tying mods together since March of 2023!
+'''
+[[dependencies.sob]]
+    modId = "jsonthings"
+    mandatory = true
+    versionRange = "[0.4.12,)"
+    ordering = "NONE"
+    side = "BOTH"

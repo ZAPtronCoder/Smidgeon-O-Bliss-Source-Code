@@ -1,0 +1,14 @@
+{
+    "nutrition": 3,
+    "saturation": 0.60,
+    "effects": [
+        {
+          "effect": "environmental:serenity",
+          "duration": 900,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true      
+        }
+      ]
+}

@@ -1,0 +1,8 @@
+{
+    "type": "plain",
+    "max_stack_size": 64,
+    "group": "sob:sob",
+    "conditions": [
+      { "type":"mod_loaded", "modid": "create" }
+    ]
+  }

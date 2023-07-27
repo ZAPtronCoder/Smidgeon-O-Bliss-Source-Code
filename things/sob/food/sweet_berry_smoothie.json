@@ -1,0 +1,14 @@
+{
+    "nutrition": 3,
+    "saturation": 0.60,
+    "effects": [
+        {
+          "effect": "minecraft:resistance",
+          "duration": 200,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": true,
+          "show_icon": true      
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "nutrition": 7,
+    "saturation": 1.0,
+    "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "duration": 300,
+          "amplifier": 2,
+          "visible": true,
+          "show_particles": true,
+          "show_icon": true      
+        },
+        {
+          "effect": "minecraft:fire_resistance",
+          "duration": 300,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": true,
+          "show_icon": true      
+        }
+      ]
+}

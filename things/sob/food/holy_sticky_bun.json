@@ -1,0 +1,14 @@
+{
+    "nutrition": 8,
+    "saturation": 0.75,
+    "effects": [
+        {
+          "effect": "minecraft:regeneration",
+          "duration": 200,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": true,
+          "show_icon": true      
+        }
+      ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "plain",
+    "still_texture": "sob:fluid/mulberry_jam_still",
+    "flowing_texture": "sob:fluid/mulberry_jam_flow",
+    "conditions": [
+        { "type":"mod_loaded", "modid": "create" },
+        { "type":"mod_loaded", "modid": "upgrade_aquatic" },
+        { "type":"not", "condition":{ "type":"mod_loaded", "modid": "create_central_kitchen" }}
+      ],
+    "bucket": {
+      "group": "sob:sob"
+    }
+  }

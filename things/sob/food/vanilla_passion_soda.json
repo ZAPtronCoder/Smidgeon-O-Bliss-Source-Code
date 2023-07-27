@@ -1,0 +1,22 @@
+{
+    "nutrition": 1,
+    "saturation": 0.0,
+    "effects": [
+        {
+          "effect": "atmospheric:spitting",
+          "duration": 300,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true      
+        },
+        {
+          "effect": "neapolitan:vanilla_scent",
+          "duration": 1200,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true      
+        }
+      ]
+}

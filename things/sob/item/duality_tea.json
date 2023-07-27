@@ -1,0 +1,19 @@
+{
+    "type": "drinkable_bottle",
+    "max_stack_size": 16,
+    "food": "sob:duality_tea",
+    "group": "sob:sob",
+    "conditions": [
+      { "type":"mod_loaded", "modid": "farmersdelight" },
+      { "type":"mod_loaded", "modid": "malum" }
+    ],
+    "delayed_use": {
+      "duration": 36,
+      "animation": "drink",
+      "on_complete": "use_item"
+    },
+    "lore": [
+      {"text": "Regeneration (0:20)", "color": "blue" },
+      {"text": "Strength (0:20)",  "color": "blue" }
+    ]
+  }

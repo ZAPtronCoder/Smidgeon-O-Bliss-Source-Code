@@ -1,0 +1,18 @@
+{
+    "type": "drinkable_bottle",
+    "max_stack_size": 16,
+    "food": "sob:mulberry_smoothie",
+    "group": "sob:sob",
+    "conditions": [
+      { "type":"mod_loaded", "modid": "neapolitan" },
+      { "type":"mod_loaded", "modid": "upgrade_aquatic" }
+    ],
+    "delayed_use": {
+      "duration": 20,
+      "animation": "drink",
+      "on_complete": "use_item"
+    },
+    "lore": [
+      {"text": "Regeneration II (0:05)", "color": "blue" }
+    ]
+  }

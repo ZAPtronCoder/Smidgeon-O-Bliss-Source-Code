@@ -1,0 +1,13 @@
+{
+    "type": "plain",
+    "max_stack_size": 64,
+    "food": "sob:caldera_roll",
+    "group": "sob:sob",
+    "conditions": [
+      { "type":"mod_loaded", "modid": "create" }
+    ],
+    "lore": [
+      {"text": "Hunger III (0:15)", "color": "red" },
+      {"text": "Fire Resistance (0:15)", "color": "blue" }
+    ]
+  }

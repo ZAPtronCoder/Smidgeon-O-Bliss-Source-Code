@@ -1,0 +1,32 @@
+{
+    "nutrition": 1,
+    "saturation": 0.0,
+    "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "duration": 1800,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true
+        },
+        {
+          "effect": "respiteful:tenacity",
+          "duration": 1800,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true,
+          "conditions":[{ "type":"mod_loaded", "modid": "respiteful" }]
+        },
+        {
+          "effect": "minecraft:resistance",
+          "duration": 1800,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true,
+          "conditions":[{ "type":"not", "condition":{ "type":"mod_loaded", "modid": "respiteful" }}]
+        }
+      ]
+}

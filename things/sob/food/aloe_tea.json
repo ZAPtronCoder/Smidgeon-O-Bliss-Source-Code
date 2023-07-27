@@ -1,0 +1,32 @@
+{
+    "nutrition": 1,
+    "saturation": 0.0,
+    "effects": [
+        {
+          "effect": "atmospheric:relief",
+          "duration": 2400,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true
+        },
+        {
+          "effect": "respiteful:vitality",
+          "duration": 2400,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true,
+          "conditions":[{ "type":"mod_loaded", "modid": "respiteful" }]
+        },
+        {
+          "effect": "minecraft:haste",
+          "duration": 2400,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true,
+          "conditions":[{ "type":"not", "condition":{ "type":"mod_loaded", "modid": "respiteful" }}]
+        }
+      ]
+}

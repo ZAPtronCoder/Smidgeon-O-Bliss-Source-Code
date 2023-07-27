@@ -1,0 +1,22 @@
+{
+    "nutrition": 1,
+    "saturation": 0.0,
+    "effects": [
+        {
+          "effect": "minecraft:resistance",
+          "duration": 2400,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true      
+        },
+        {
+          "effect": "farmersdelight:comfort",
+          "duration": 2400,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true      
+        }
+      ]
+}

@@ -1,0 +1,14 @@
+{
+    "nutrition": 4,
+    "saturation": 0.1,
+    "effects": [
+        {
+          "effect": "neapolitan:sugar_rush",
+          "duration": 800,
+          "amplifier": 1,
+          "visible": true,
+          "show_particles": false,
+          "show_icon": true      
+        }
+      ]
+}

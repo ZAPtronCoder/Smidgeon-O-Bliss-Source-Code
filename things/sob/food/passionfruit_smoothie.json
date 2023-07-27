@@ -1,0 +1,14 @@
+{
+    "nutrition": 3,
+    "saturation": 0.60,
+    "effects": [
+        {
+          "effect": "atmospheric:spitting",
+          "duration": 300,
+          "amplifier": 0,
+          "visible": true,
+          "show_particles": true,
+          "show_icon": true      
+        }
+    ]
+}

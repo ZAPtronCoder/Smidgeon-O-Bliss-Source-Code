@@ -1,0 +1,14 @@
+{
+    "nutrition": 6,
+    "saturation": 0.5,
+    "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "duration": 300,
+          "amplifier": 1,
+          "visible": true,
+          "show_particles": true,
+          "show_icon": true      
+        }
+      ]
+}

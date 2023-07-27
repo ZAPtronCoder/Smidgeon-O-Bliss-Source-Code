@@ -1,0 +1,19 @@
+{
+    "type": "drinkable_bottle",
+    "max_stack_size": 16,
+    "food": "sob:aloe_tea",
+    "group": "sob:sob",
+    "conditions": [
+      { "type":"mod_loaded", "modid": "farmersrespite" },
+      { "type":"mod_loaded", "modid": "atmospheric" }
+    ],
+    "delayed_use": {
+      "duration": 36,
+      "animation": "drink",
+      "on_complete": "use_item"
+    },
+    "lore": [
+      {"text": "Relief (2:00)", "color": "blue" },
+      {"text": "Green Tea Effect (2:00)",  "color": "gray" }
+    ]
+  }
