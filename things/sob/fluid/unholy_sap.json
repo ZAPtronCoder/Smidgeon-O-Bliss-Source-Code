@@ -1,0 +1,14 @@
+{
+    "type": "plain",
+    "fluid_type": {
+      "still_texture": "sob:fluid/unholy_sap_still",
+      "flowing_texture": "sob:fluid/unholy_sap_flow"
+    },
+    "conditions": [
+        { "type":"mod_loaded", "modid": "create" },
+        { "type":"mod_loaded", "modid": "malum" }
+      ],
+    "bucket": {
+      "group": "sob:sob"
+    }
+  }
